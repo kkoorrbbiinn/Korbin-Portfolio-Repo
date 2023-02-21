@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    background-color: #eae0d5;
+    cursor: url(), auto;
+}
+
+@media (max-width: 600px) {
+    a {
+        float: left;
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 30px;
+        background-color: #5e503f;
+        font-family: Comfortaa;
+    }
+
+    a.navbarBrand {
+        color: white;
+        text-decoration: none;
+    }
+
+    div.container-fluid {
+        background-color: #5e503f;
+    }
+
+    span.navbar-toggler-icon {
+        background-color: #C6AC8F;
+    }
+
+    button.navbar-toggler {
+        background-color: #C6AC8F;
+    }
+
+    a.navLink {
+        color: white;
+        background-color: #5e503f;
+        font-size: 18px;
+        text-decoration: none;
+    }
+
+    li.navItem {
+        background-color: #5e503f;
+    }
+
+    div.largeScreen {
+        display: none;
+    }
+}
+
+@media (min-width: 601px) {
+    a {
+        float: left;
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 30px;
+        background-color: #5e503f;
+        font-family: Comfortaa;
+    }
+
+    a.navbarBrand {
+        color: white;
+        text-decoration: none;
+    }
+
+    div.container-fluid {
+        background-color: #5e503f;
+        display: inline-block;
+    }
+
+    span.navbar-toggler-icon {
+        background-color: #C6AC8F;
+        display: none;
+    }
+
+    li.navItem {
+        background-color: #5e503f;
+        display: inline-block;
+    }
+
+    a.navLink {
+        color: white;
+        background-color: #5e503f;
+        font-size: 18px;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    button.navbar-toggler {
+        background-color: #C6AC8F;
+        display: none;
+    }
+}
