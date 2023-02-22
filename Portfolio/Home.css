@@ -46,6 +46,7 @@
     div.largeScreen {
         display: none;
     }
+
 }
 
 @media (min-width: 601px) {
@@ -92,3 +93,15 @@
         display: none;
     }
 }
+
+/* @keyframes fade-in {
+    from {
+        background-color: black;
+        transition: 0;
+    }
+
+    to {
+        background-color: #eae0d5;
+        opacity: 1;
+    }
+} */
