@@ -61,6 +61,31 @@
         height: 30px;
         width: 30px;
     }
+
+    .Instagram {
+        height: 30px auto;
+        width: 30px;
+    }
+
+    .Gmail {
+        height: 30px;
+        width: 30px;
+    }
+
+    .Linkedin {
+        height: 30px;
+        width: 30px;
+        background-color: white;
+    }
+
+    .socialLink {
+        background-color: white;
+    }
+
+    .bottomLinks {
+        border-top: 5px solid #5e503f;
+        background-color: #C6AC8F;
+    }
 }
 
 @media (min-width: 601px) {
@@ -121,4 +146,30 @@
         height: 30px;
         width: 30px;
     }
+
+    .Instagram {
+        height: 30px auto;
+        width: 30px;
+    }
+
+    .Gmail {
+        height: 30px;
+        width: 30px;
+    }
+
+    .Linkedin {
+        height: 30px;
+        width: 30px;
+        background-color: white;
+    }
+
+    .socialLink {
+        background-color: white;
+    }
+
+    .bottomLinks {
+        border-top: 5px solid #5e503f;
+        background-color: #C6AC8F;
+    }
+
 }

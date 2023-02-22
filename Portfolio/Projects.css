@@ -113,6 +113,30 @@
         background-color: #5e503f;
         color: white;
     }
+
+    .Instagram {
+        height: 30px auto;
+        width: 30px;
+    }
+
+    .Gmail {
+        height: 30px;
+        width: 30px;
+    }
+
+    .Linkedin {
+        height: 30px;
+        width: 30px;
+        background-color: white;
+    }
+
+    .socialLink {
+        background-color: white;
+    }
+
+    .bottomLinks {
+        border-top: 5px solid #5e503f;
+    }
 }
 
 @media (min-width: 601px) {
@@ -228,5 +252,44 @@
     
     div.container {
         width: 100vw;
+    }
+
+    .Instagram {
+        height: 30px auto;
+        width: 30px;
+    }
+
+    .Gmail {
+        height: 30px;
+        width: 30px;
+    }
+
+    .Linkedin {
+        height: 30px;
+        width: 30px;
+        background-color: white;
+    }
+
+    .socialLink {
+        background-color: white;
+    }
+
+    .bottomLinks {
+        border-top: 5px solid #5e503f;
+        background-color: #C6AC8F;
+    }
+
+    div.container {
+        padding-bottom: 15px;
+    }
+
+    h1 {
+        background-color: #C6AC8F;
+        border-bottom: 5px solid #5e503f;
+        border-top: 5px solid #5e503f;
+        text-align: center;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        font-family: Comfortaa;
     }
 }
