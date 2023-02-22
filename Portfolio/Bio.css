@@ -46,6 +46,21 @@
     div.largeScreen {
         display: none;
     }
+
+    .Instagram {
+        height: 30px;
+        width: 30px;
+    }
+
+    .Gmail {
+        height: 30px;
+        width: 30px;
+    }
+
+    .Linkedin {
+        height: 30px;
+        width: 30px;
+    }
 }
 
 @media (min-width: 601px) {
@@ -90,5 +105,20 @@
     button.navbar-toggler {
         background-color: #C6AC8F;
         display: none;
+    }
+
+    .Instagram {
+        height: 30px;
+        width: 30px;
+    }
+
+    .Gmail {
+        height: 30px;
+        width: 30px;
+    }
+
+    .Linkedin {
+        height: 30px;
+        width: 30px;
     }
 }

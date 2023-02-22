@@ -46,6 +46,73 @@
     div.largeScreen {
         display: none;
     }
+
+    .Instagram {
+        height: 30px;
+        width: 30px;
+    }
+
+    .Gmail {
+        height: 30px;
+        width: 30px;
+    }
+
+    .Linkedin {
+        height: 30px;
+        width: 30px;
+    }
+
+    .carousel-container {
+        width: 70%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .carousel-images {
+        width: 80%;
+        background: #C6AC8F;
+        padding: 10px;
+        border-radius: 10px;
+        box-sizing: border-box;
+        box-shadow: 2px 2px #5e503f;
+    }
+
+    .carousel-images img {
+        width: 100%;
+        border-radius: 10px;
+        display: none;
+    }
+
+    .carousel-images img:first-of-type {
+        display: block;
+    }
+
+    .carousel-button {
+        align-self: center;
+        background: #5e503f;
+        color: #5e503f;
+        padding: 10px;
+        border-radius: 50%;
+        text-align: center;
+        box-shadow: 1px 1px #5e503f;
+    }
+
+    .carousel-button:hover {
+        cursor: pointer;
+        background: #C6AC8F;
+        box-shadow: 1px 1px #5e503f;
+        color: white;
+    }
+
+    span.lnr.lnr-chevron-left {
+        background-color: #5e503f;
+        color: white;
+    }
+
+    span.lnr.lnr-chevron-right {
+        background-color: #5e503f;
+        color: white;
+    }
 }
 
 @media (min-width: 601px) {
@@ -90,5 +157,76 @@
     button.navbar-toggler {
         background-color: #C6AC8F;
         display: none;
+    }
+
+    .Instagram {
+        height: 30px;
+        width: 30px;
+    }
+
+    .Gmail {
+        height: 30px;
+        width: 30px;
+    }
+
+    .Linkedin {
+        height: 30px;
+        width: 30px;
+    }
+
+    .carousel-container {
+        width: 70%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .carousel-images {
+        width: 80%;
+        background: #C6AC8F;
+        padding: 10px;
+        border-radius: 10px;
+        box-sizing: border-box;
+        box-shadow: 2px 2px #5e503f;
+    }
+
+    .carousel-images img {
+        width: 100%;
+        border-radius: 10px;
+        display: none;
+    }
+
+    .carousel-images img:first-of-type {
+        display: block;
+    }
+
+    .carousel-button {
+        align-self: center;
+        background: #5e503f;
+        color: #5e503f;
+        padding: 10px;
+        border-radius: 50%;
+        text-align: center;
+        box-shadow: 1px 1px #5e503f;
+    }
+
+    .carousel-button:hover {
+        cursor: pointer;
+        background: #C6AC8F;
+        box-shadow: 1px 1px #5e503f;
+        color: white;
+    }
+
+    span.lnr.lnr-chevron-left {
+        background-color: #5e503f;
+        color: white;
+    }
+
+    span.lnr.lnr-chevron-right {
+        background-color: #5e503f;
+        color: white;
+    }
+    
+    div.container {
+        width: 100vw;
     }
 }
