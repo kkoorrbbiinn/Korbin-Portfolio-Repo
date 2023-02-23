@@ -102,17 +102,23 @@
         border-top: 5px solid #5e503f;
         background-color: #C6AC8F;
         position: relative;
+        padding-top: 5px;
+        padding-bottom: 4px;
     }
 
     .socialLink {
         background-color: white;
     }
-    
+
     .big-container {
         background-image: url('backgroundImg.jpg');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
+    }
+
+    .backToTopButton {
+        display: none;
     }
 }
 
@@ -183,6 +189,8 @@
     .bottomLinks {
         border-top: 5px solid #5e503f;
         background-color: #C6AC8F;
+        padding-top: 5px;
+        padding-bottom: 4px;
     }
 
     .image-container {
@@ -233,6 +241,15 @@
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
+    }
+
+    .backToTopButton {
+        background-color: white;
+        font-family: Comfortaa;
+        height: 35px;
+        display: flex;
+        flex-direction: column;
+        float: right;
     }
 }
 
