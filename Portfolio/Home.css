@@ -429,9 +429,7 @@
     
     .background-bubbles span:nth-child(even) {
         background: #C8AF92;
-        box-shadow: 0 0 0 10hv #81715f,
-        0 0 50px #C8AF92,
-        0 0 100px #C8AF92;
+        box-shadow: 0 0 0 10hv #81715f, 0 0 50px #C8AF92, 0 0 100px #C8AF92;
         z-index: 2;
     }
     
