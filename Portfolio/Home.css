@@ -108,6 +108,10 @@
         width: 30px;
     }
 
+    .home-container {
+        color: white;
+    }
+
     .image-container {
         height: auto;
         /* width: 100vw; */
