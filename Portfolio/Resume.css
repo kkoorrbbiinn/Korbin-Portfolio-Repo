@@ -1,17 +1,16 @@
-* {
-    margin: 0px;
-    background-color: #eae0d5;
-    cursor: url(), auto;
-}
-
 @media (max-width: 600px) {
+    * {
+        margin: 0px;
+        background-color: #eae0d5;
+    }
+
     a {
         float: left;
         color: white;
         padding: 14px 16px;
         text-decoration: none;
         font-size: 30px;
-        background-color: #5e503f;
+        background-color: #C6AC8F;
         font-family: Comfortaa;
     }
 
@@ -21,7 +20,9 @@
     }
 
     div.container-fluid {
-        background-color: #5e503f;
+        background-color: #C6AC8F;
+        border-top: 5px solid #5e503f;
+        border-bottom: 5px solid #5e503f;
     }
 
     span.navbar-toggler-icon {
@@ -34,13 +35,13 @@
 
     a.navLink {
         color: white;
-        background-color: #5e503f;
+        background-color: #C6AC8F;
         font-size: 18px;
         text-decoration: none;
     }
 
     li.navItem {
-        background-color: #5e503f;
+        background-color: #C6AC8F;
     }
 
     div.largeScreen {
@@ -122,17 +123,33 @@
         flex-direction: column;
         float: right;
     }
+
+    #myResume {
+        color: white;
+    }
 }
 
 @media (min-width: 601px) {
+    * {
+        margin: 0px;
+        background-color: #eae0d5;
+        cursor: none;
+    }
+
     a {
         float: left;
         color: white;
         padding: 14px 16px;
         text-decoration: none;
         font-size: 30px;
-        background-color: #5e503f;
+        background-color: #C6AC8F;
         font-family: Comfortaa;
+    }
+
+    nav.navbar.sticky-top {
+        margin: 0;
+        padding: 0;
+        z-index: 0;
     }
 
     a.navbarBrand {
@@ -141,8 +158,10 @@
     }
 
     div.container-fluid {
-        background-color: #5e503f;
+        background-color: #C6AC8F;
         display: inline-block;
+        border-top: 5px solid #5e503f;
+        border-bottom: 5px solid #5e503f;
     }
 
     span.navbar-toggler-icon {
@@ -151,13 +170,13 @@
     }
 
     li.navItem {
-        background-color: #5e503f;
+        background-color: #C6AC8F;
         display: inline-block;
     }
 
     a.navLink {
         color: white;
-        background-color: #5e503f;
+        background-color: #C6AC8F;
         font-size: 18px;
         text-decoration: none;
         display: inline-block;
@@ -208,12 +227,13 @@
         background-color: #C6AC8F;
         padding-top: 5px;
         padding-bottom: 4px;
+        position: absolute;
+        width: 100vw;
     }
 
     #myResume {
         background-color: #C6AC8F;
         border-bottom: 5px solid #5e503f;
-        border-top: 5px solid #5e503f;
         text-align: center;
         padding-bottom: 5px;
         padding-top: 5px;
@@ -237,6 +257,7 @@
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
+        height: 100vh;
     }
 
     .backToTopButton {
@@ -246,5 +267,45 @@
         display: flex;
         flex-direction: column;
         float: right;
+        position: relative;
+        right: 20px;
+    }
+    
+    .big-container {
+        color: white;
+    }
+
+    .inner-cursor {
+        position: fixed;
+        z-index: 20;
+        left: 10px;
+        width: 10px;
+        height: 10px;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        mix-blend-mode: difference;
+        border-radius: 50%;
+        pointer-events: none;
+        transition: width .5s, height .5s;
+        
+    }
+    
+    .inner-cursor.grow {
+        width: 25px;
+        height: 25px;
+        transition: width .5s, height .5s;
+    }
+    
+    .outer-cursor {
+        position: fixed;
+        z-index: 20;
+        left: 10px;
+        width: 25px;
+        height: 25px;
+        transform: translate(-50%, -50%);
+        border: 1px solid white;
+        mix-blend-mode: difference;
+        border-radius: 50%;
+        pointer-events: none;
     }
 }

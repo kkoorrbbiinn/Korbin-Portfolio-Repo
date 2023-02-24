@@ -15,8 +15,8 @@ function moveCursor(e) {
 
     innerCursor.style.left = `${x}px`;
     innerCursor.style.top = `${y}px`;
-    outerCursor.style.left = `${x}px`;
-    outerCursor.style.top = `${y}px`;
+    // outerCursor.style.left = `${x}px`;
+    // outerCursor.style.top = `${y}px`;
 }
 
 let links = Array.from(document.querySelectorAll("a"));
