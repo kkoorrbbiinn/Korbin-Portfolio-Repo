@@ -214,6 +214,8 @@
         0 0 100px #eae0d5;
         animation: animate 15s linear infinite;
         animation-duration: calc(125s / var(--i));
+        -webkit-animation: animate 15s linear infinite;
+        -webkit-animation-duration: calc(125s / var(--i));
         z-index: 2;
     }
     
@@ -240,10 +242,10 @@
 
     @-webkit-keyframes animate {
         0% {
-            transform: translateY(100vh) scale(0);
+            -webkit-transform: translateY(100vh) scale(0);
         }
         100% {
-            transform: translateY(-10vh) scale(1);
+            -webkit-transform: translateY(-10vh) scale(1);
         }
     }
 
@@ -453,10 +455,10 @@
 
     @-webkit-keyframes animate {
         0% {
-            transform: translateY(100vh) scale(0);
+            -webkit-transform: translateY(100vh) scale(0);
         }
         100% {
-            transform: translateY(-10vh) scale(1);
+            -webkit-transform: translateY(-10vh) scale(1);
         }
     }
 }
