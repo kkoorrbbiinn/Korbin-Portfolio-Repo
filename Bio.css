@@ -17,10 +17,13 @@
     a.navbarBrand {
         color: white;
         text-decoration: none;
+        background-color: #C6AC8F;
     }
 
     div.container-fluid {
-        background-color: #5e503f;
+        background-color: #C6AC8F;
+        border-top: 5px solid #eae0d5;
+        border-bottom: 5px solid #eae0d5;
     }
 
     span.navbar-toggler-icon {
@@ -33,13 +36,13 @@
 
     a.navLink {
         color: white;
-        background-color: #5e503f;
+        background-color: #C6AC8F;
         font-size: 18px;
         text-decoration: none;
     }
 
     li.navItem {
-        background-color: #5e503f;
+        background-color: #C6AC8F;
     }
 
     div.largeScreen {
@@ -82,10 +85,51 @@
     }
 
     .bottomLinks {
-        border-top: 5px solid #5e503f;
+        border-top: 5px solid #eae0d5;
         background-color: #C6AC8F;
         padding-top: 5px;
         padding-bottom: 4px;
+    }
+
+    .content {
+        border-top: 5px solid #eae0d5;
+        border-bottom: 5px solid #eae0d5;
+        background-color: #5e503f;
+        color: white;
+    }
+
+    .content1 {
+        border-top: 5px solid #eae0d5;
+        border-bottom: 5px solid #eae0d5;
+        background-color: #5e503f;
+        color: white;
+    }
+
+    .content2 {
+        border-top: 5px solid #eae0d5;
+        border-bottom: 5px solid #eae0d5;
+        background-color: #5e503f;
+        color: white;
+    }
+
+    p {
+        background-color: #5e503f;
+        color: white;
+    }
+
+    h2 {
+        color: white;
+        background-color: #5e503f;
+        text-align: center;
+    }
+
+    ul {
+        color: white;
+        background-color: #5e503f;
+    }
+
+    li {
+        background-color: #5e503f;
     }
 }
 
@@ -348,6 +392,20 @@
         text-align: center;
     }
 
+    ul {
+        background-color: transparent;
+        text-align: center;
+        font-size: 12px;
+        font-family: Comfortaa;
+    }
+
+    li {
+        background-color: transparent;
+        text-align: center;
+        font-size: 12px;
+        font-family: Comfortaa;
+    }
+
     .square1 {
         position: absolute;
         width: 350px;
@@ -432,9 +490,94 @@
         z-index: 4;
     }
 
+    .square2 {
+        position: absolute;
+        width: 350px;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 1%;
+        left: 65%;
+        background-color: transparent;
+    }
+
+    .square2 span:nth-child(1) {
+        position: absolute;
+        top: 25%;
+        left: 0;
+        width: 150%;
+        height: 150%;
+        border: 2px solid #5e503f;
+        border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+        transition: .5s;
+        animation: textbox 6s linear infinite;
+    }
+
+    .square2:hover span:nth-child(1) {
+        background-color: rgba(198, 172, 143, 0.8);
+        border: none;
+    }
+
+    .square2 span:nth-child(2) {
+        position: absolute;
+        top: 25%;
+        left: 0;
+        width: 150%;
+        height: 150%;
+        border: 2px solid #5e503f;
+        border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+        transition: .5s;
+        animation: textbox 4s linear infinite;
+    }
+
+    .square2:hover span:nth-child(2) {
+        background-color: rgba(198, 172, 143, 0.8);
+        border: none;
+    }
+
+    .square2 span:nth-child(3) {
+        position: absolute;
+        top: 25%;
+        left: 0;
+        width: 150%;
+        height: 150%;
+        border: 2px solid #5e503f;
+        border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+        transition: .5s;
+        animation: textbox 10s linear infinite;
+    }
+
+    .square2:hover span:nth-child(3) {
+        background-color: rgba(198, 172, 143, 0.8);
+        border: none;
+    }
+
+    .content2 {
+        position: relative;
+        padding: 40px 60px;
+        color: black;
+        transition: .5s;
+        z-index: 4;
+        top: %;
+        left: 20%;
+        height: 40%;
+        width: 100%;
+        background-color: transparent;
+    }
+
+    .content2:hover {
+        position: ;
+        padding: 40px 60px;
+        color: black;
+        transition: .5s;
+        z-index: 4;
+    }
+
     @keyframes textbox {
         0% {
             transform: rotate(0deg);
+            
         }
 
         100% {
@@ -442,13 +585,14 @@
         }
     }
 
-    @keyframes textbox2 {
+    @-webkit-keyframes textbox {
         0% {
-            transform: rotate(360deg);
+            transform: rotate(0deg);
+            
         }
 
         100% {
-            transform: rotate(0deg);
+            transform: rotate(360deg);
         }
     }
 }

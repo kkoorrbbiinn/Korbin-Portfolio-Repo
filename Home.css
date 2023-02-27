@@ -129,7 +129,7 @@
         margin-right: auto;
         margin-bottom: 0;
         position: absolute;
-        top: 57%;
+        top: 64vh;
         left: 50%;
         transform: translate(-50%, -50%);
     }
@@ -230,6 +230,15 @@
     }
     
     @keyframes animate {
+        0% {
+            transform: translateY(100vh) scale(0);
+        }
+        100% {
+            transform: translateY(-10vh) scale(1);
+        }
+    }
+
+    @-webkit-keyframes animate {
         0% {
             transform: translateY(100vh) scale(0);
         }
@@ -434,6 +443,15 @@
     }
     
     @keyframes animate {
+        0% {
+            transform: translateY(100vh) scale(0);
+        }
+        100% {
+            transform: translateY(-10vh) scale(1);
+        }
+    }
+
+    @-webkit-keyframes animate {
         0% {
             transform: translateY(100vh) scale(0);
         }
