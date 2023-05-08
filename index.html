@@ -3,152 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <title>Home</title>
-    <link rel="stylesheet" href="Home.css">
-    <script src="Home.js" defer></script>
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-        <!-- bootstrap -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="/home.css">
+    <script src="/home.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!-- cursor -->
-  <div class="inner-cursor"></div>
-  <!-- <div class="outer-cursor"></div> -->
-  <!-- end of cursor -->
-  <!-- cursor tutorial: https://youtu.be/Irwf2_1p7tQ -->
-
-    <!-- navbar -->
-    <nav class="navbar sticky-top">
-        <div class="container-fluid">
-                <a class="navbarBrand" href="index.html">Korbin Westerfield</a>
-            <div class="largeScreen">
-                <a class="navLink" href="Bio.html">Bio</a>
-                <a class="navLink" href="Resume.html">Resume</a>
-                <a class="navLink" href="Projects.html">Projects</a>
-            </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-              <li class="navItem">
-                <a class="navLink" href="Bio.html">Bio</a>
-              </li>
-              <li class="navItem">
-                <a class="navLink" href="Resume.html">Resume</a>
-              </li>
-              <li class="navItem">
-                <a class="navLink" href="Projects.html">Projects</a>
-              </li>
-            </ul>
-          </div>
+    <div class="navbar">
+        <div class="mainBtn">
+            <a href="/index.html" class="homeBtn homeBtnCenter">Home</a>
         </div>
-      </nav> 
-      <!-- end of navbar -->
-
-      <!-- animated background -->
-      
-      <div class="background-container">
-        <div class="background-bubbles">
-          <span style="--i:11;"></span>
-          <span style="--i:12;"></span>
-          <span style="--i:24;"></span>
-          <span style="--i:10;"></span>
-          <span style="--i:14;"></span>
-          <span style="--i:23;"></span>
-          <span style="--i:18;"></span>
-          <span style="--i:16;"></span>
-          <span style="--i:19;"></span>
-          <span style="--i:20;"></span>
-          <span style="--i:22;"></span>
-          <span style="--i:25;"></span>
-          <span style="--i:18;"></span>
-          <span style="--i:21;"></span>
-          <span style="--i:15;"></span>
-          <span style="--i:13;"></span>
-          <span style="--i:26;"></span>
-          <span class="notMobileFriendly" style="--i:17;"></span>
-          <span class="notMobileFriendly" style="--i:13;"></span>
-          <span class="notMobileFriendly" style="--i:28;"></span>
-          <span class="notMobileFriendly" style="--i:11;"></span>
-          <span class="notMobileFriendly" style="--i:12;"></span>
-          <span class="notMobileFriendly" style="--i:24;"></span>
-          <span class="notMobileFriendly" style="--i:10;"></span>
-          <span class="notMobileFriendly" style="--i:14;"></span>
-          <span class="notMobileFriendly" style="--i:23;"></span>
-          <span class="notMobileFriendly" style="--i:18;"></span>
-          <span class="notMobileFriendly" style="--i:16;"></span>
-          <span class="notMobileFriendly" style="--i:19;"></span>
-          <span class="notMobileFriendly" style="--i:20;"></span>
-          <span class="notMobileFriendly" style="--i:22;"></span>
-          <span class="notMobileFriendly" style="--i:25;"></span>
-          <span class="notMobileFriendly" style="--i:18;"></span>
-          <span class="notMobileFriendly" style="--i:21;"></span>
-          <span class="notMobileFriendly" style="--i:15;"></span>
-          <span class="notMobileFriendly" style="--i:13;"></span>
-          <span class="notMobileFriendly" style="--i:26;"></span>
-          <span class="notMobileFriendly" style="--i:17;"></span>
-          <span class="notMobileFriendly" style="--i:13;"></span>
-          <span class="notMobileFriendly" style="--i:28;"></span>
-          <span class="notMobileFriendly" style="--i:11;"></span>
-          <span class="notMobileFriendly" style="--i:12;"></span>
-          <span class="notMobileFriendly" style="--i:24;"></span>
-          <span class="notMobileFriendly" style="--i:10;"></span>
-          <span class="notMobileFriendly" style="--i:14;"></span>
-          <span class="notMobileFriendly" style="--i:23;"></span>
-          <span class="notMobileFriendly" style="--i:18;"></span>
-          <span class="notMobileFriendly" style="--i:16;"></span>
-          <span class="notMobileFriendly" style="--i:19;"></span>
-          <span class="notMobileFriendly" style="--i:20;"></span>
-          <span class="notMobileFriendly" style="--i:22;"></span>
-          <span class="notMobileFriendly" style="--i:25;"></span>
-          <span class="notMobileFriendly" style="--i:18;"></span>
-          <span class="notMobileFriendly" style="--i:21;"></span>
-          <span class="notMobileFriendly" style="--i:15;"></span>
-          <span class="notMobileFriendly" style="--i:13;"></span>
-          <span class="notMobileFriendly" style="--i:26;"></span>
-          <span class="notMobileFriendly" style="--i:17;"></span>
-          <span class="notMobileFriendly" style="--i:13;"></span>
-          <span class="notMobileFriendly" style="--i:28;"></span>
+        <div class="otherPages">
+            <a class="navBtn navBtnCenter" href="/about.html">About Me</a>
+            <a class="navBtn navBtnCenter" href="/projects.html">Projects</a>
+            <a class="navBtn navBtnCenter" href="/resume.html">Resume</a>
         </div>
-      
-    <!-- end of animated background -->
-    <!-- background tutorial: https://youtu.be/wuUSVEcK-kM -->
-
-    <div class="big-container">
-      <div class="home-container">
-        <h1> Welcome to my Portfolio</h1>
-      </div>
-
-      <!-- <div class="image-container"> -->
-        <img src="Me.png" class="aboutMePhoto">
-      <!-- </div> -->
-
-        <!-- buttons -->
-      <footer class="bottomLinks">
-        <!-- <a href="https://www.instagram.com/kkoorrbbiinn/"></a> -->
-        <button onclick="goToLink(this)" value="https://www.instagram.com/kkoorrbbiinn/" class="socialLink">
-            <img src="Instagram.jpg" class="Instagram">
-        </button>
-        <!-- <a href="https://www.linkedin.com/in/korbin-westerfield-93901b178/"></a> -->
-        <button onclick="goToLink(this)" value="https://www.linkedin.com/in/korbin-westerfield-93901b178/" class="socialLink">
-            <img src="Linkedin.jpg" class="Linkedin">
-        </button>
-        <!-- <a href="mailto:korbin.westerfield.kw@gmail.com"></a> -->
-        <button onclick="goToLink(this)" value="mailto:korbin.westerfield.kw@gmail.com" class="socialLink">
-            <img src="Gmail.jpg" class="Gmail">
-        </button>
-
-        <button onclick="toTop()" class="backToTopButton">Back to Top</button>
-
-      </footer>
-        <!-- End of buttons -->
     </div>
-  </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <div class="contentContainer">
+        <div class="leftContent">
+            <h3>Welcome!</h3>
+            <h1>I'm <span class="coralText">Korbin</br> Westerfield</span></h1>
+            <h2 class="colorText">Software Developer</h2>
+            <a class="contentBtn contentBtnCenter" href="/projects.html">My Work</a>
+            <!-- <a class="contentBtn contentBtnCenter" href="/ContactMe/contactMe.html">Contact Me</a> -->
+        </div>
+        <div class="rightContent">
+            <img class="myPic parallax" data-value="12" src="/Me.png">
+            <div class="stars1"></div>
+            <div class="stars2"></div>
+            <div class="stars3"></div>
+        </div>
+    </div>
+    
 </body>
 </html>
