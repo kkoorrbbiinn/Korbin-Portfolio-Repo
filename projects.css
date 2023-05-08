@@ -62,7 +62,7 @@ html, body {
 }
 
 .navBtn:hover {
-    color: #223843;
+    color: #d77a61;
 }
 
 .navBtnCenter::after{
@@ -185,7 +185,7 @@ a {
 
 .card .info p{
     letter-spacing: 1px;
-    font-size: 2vw;
+    font-size: 1vw;
     margin-top: 8px;
     margin-bottom: 10px;
 }

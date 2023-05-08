@@ -62,7 +62,7 @@ html, body {
 }
 
 .navBtn:hover {
-    color: #223843;
+    color: #d77a61;
 }
 
 .navBtnCenter::after{
@@ -109,7 +109,7 @@ a {
 /* ----------------------------------------------------- */
 .resumeImg{
     height: 85%;
-    width: 0 auto;
+    width: auto;
     object-fit: cover;
     position: relative;
     z-index: 2;
